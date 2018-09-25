@@ -6,6 +6,7 @@ body{
 .wrapper{
     width:80%;
     margin:auto;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -122,7 +123,9 @@ nav ul li a:hover{
     display: inline-block;
     margin: 0 0 0 50px;
 }
-
+.call-content a:hover{
+    background-color: #00AAA0;
+}
 /*
 ========================================================================
             ------------ SCHEDULE SECTION CSS-----------
@@ -170,4 +173,71 @@ nav ul li a:hover{
 .left-action a:hover, .right-action a:hover{
     background: #ffffff;
     color: #000;
+}
+
+/*
+========================================================================
+            ------------ ABOUT SECTION CSS-----------
+========================================================================
+*/
+
+.about-section{
+    overflow: hidden;
+    padding: 80px 0;
+}
+.about-image,.about-content{
+    float: left;
+    width:50%;
+}
+.about-image{
+    text-align: center;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.sub-title{
+    font-style: italic;
+    margin-top:0;
+    font-family: "Arial Black";
+    color: #999;
+
+}
+
+.about-content p{
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.readmore{
+    color: #A80D00;
+    font-size: 20px;
+    margin-top:30px;
+    display: block;
+}
+
+/*
+========================================================================
+            ------------ STORY SECTION CSS-----------
+========================================================================
+*/
+.story-section{
+    background: url("../img/story-bg.jpg") no-repeat center center / cover;
+    padding: 80px 0;
+}
+.story-video,.story-content{
+    float: left;
+    width:50%;
+    text-align: center;
+}
+.story-content{
+    text-align: right;
+}
+.story-content .title, .story-content p{
+    color: #ffffff;
+}
+.story-content .readmore{
+    color: #ffffff;
 }
