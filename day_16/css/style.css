@@ -1,0 +1,243 @@
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    height: 2000px;
+}
+.wrapper{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+/*
+========================================================================
+            ------------ HEADER SECTION CSS-----------
+========================================================================
+*/
+
+#header-section{
+    overflow: hidden;
+    padding: 15px 0;
+    border-bottom:1px solid #f2f2f2;
+}
+.logo{
+    width:150px;
+    float: left;
+}
+
+.logo img{
+    width:100%;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+    padding:23px 18px;
+    display: block;
+    font-size:14px;
+    transition: 400ms;
+}
+nav ul li a:hover{
+    color: #ffffff;
+    background-color: #444444;
+}
+
+/*
+========================================================================
+            ------------ BANNER SECTION CSS-----------
+========================================================================
+*/
+#banner-section{
+    background: url(../img/header_bg.jpg) fixed no-repeat center center / cover;
+    height: 600px;
+}
+.promo-text span{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.promo-text{
+    padding: 200px 0;
+    box-sizing: border-box;
+}
+.promo-text span.upper-text{
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+}
+.promo-text .free-assesment, .call-content a{
+    color: #ffffff;
+    background: #D23700;
+    display: block;
+    width:200px;
+    text-align: center;
+    padding: 15px 5px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin:30px auto;
+    border:1px solid #A80D00;
+    transition: .3s;
+}
+
+.promo-text .free-assesment:hover{
+    background: #A80D00;
+}
+
+/*
+========================================================================
+            ------------ SCHEDULE SECTION CSS-----------
+========================================================================
+*/
+.shedule-call-section{
+    padding:20px 0;
+    text-align: center;
+
+}
+
+.call-content span{
+    color: #000;
+    font-size: 23px;
+}
+.call-content a{
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+.call-content a:hover{
+    background-color: #00AAA0;
+}
+/*
+========================================================================
+            ------------ SCHEDULE SECTION CSS-----------
+========================================================================
+*/
+.call-to-action{}
+.call-to-action .wrapper{
+    width:100%;
+}
+
+.left-action, .right-action{
+    text-align: center;
+    float: left;
+    width:50%;
+    height: 400px;
+    padding:100px 135px;
+    box-sizing: border-box;
+    background: url(../img/feature1.jpg) fixed no-repeat center center / cover;
+}
+
+.right-action{
+    background: url(../img/feature2.jpg) fixed no-repeat center center / cover;
+}
+.left-action h3, .right-action h3{
+    margin-top: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.left-action p, .right-action p{
+    color: #ffffff;
+}
+
+.left-action a, .right-action a{
+    color: #ffffff;
+    text-transform: uppercase;
+    border:1px solid #ffffff;
+    display: inline-block;
+    padding:13px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: .4s;
+}
+
+.left-action a:hover, .right-action a:hover{
+    background: #ffffff;
+    color: #000;
+}
+
+/*
+========================================================================
+            ------------ ABOUT SECTION CSS-----------
+========================================================================
+*/
+
+.about-section{
+    overflow: hidden;
+    padding: 80px 0;
+}
+.about-image,.about-content{
+    float: left;
+    width:50%;
+}
+.about-image{
+    text-align: center;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.sub-title{
+    font-style: italic;
+    margin-top:0;
+    font-family: "Arial Black";
+    color: #999;
+
+}
+
+.about-content p{
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.readmore{
+    color: #A80D00;
+    font-size: 20px;
+    margin-top:30px;
+    display: block;
+}
+
+/*
+========================================================================
+            ------------ STORY SECTION CSS-----------
+========================================================================
+*/
+.story-section{
+    background: url("../img/story-bg.jpg") no-repeat center center / cover;
+    padding: 80px 0;
+}
+.story-video,.story-content{
+    float: left;
+    width:50%;
+    text-align: center;
+}
+.story-content{
+    text-align: right;
+}
+.story-content .title, .story-content p{
+    color: #ffffff;
+}
+.story-content .readmore{
+    color: #ffffff;
+}
